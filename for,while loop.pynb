@@ -1,0 +1,1138 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "9ee24c78",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l = [\"name\",\"email id\",\"phone number\",\"address\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "8f674156",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name\n",
+      "email id\n",
+      "phone number\n",
+      "address\n"
+     ]
+    }
+   ],
+   "source": [
+    "l = ['name', 'email id', 'phone number', 'address']\n",
+    "for i in l:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "ccae4683",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "namebiswa biswaranjanmallick62@gmail.com 6372229717 meghadambaru\n",
+      "email idbiswa biswaranjanmallick62@gmail.com 6372229717 meghadambaru\n",
+      "phone numberbiswa biswaranjanmallick62@gmail.com 6372229717 meghadambaru\n",
+      "addressbiswa biswaranjanmallick62@gmail.com 6372229717 meghadambaru\n"
+     ]
+    }
+   ],
+   "source": [
+    "l = ['name', 'email id', 'phone number', 'address']\n",
+    "for i in l:\n",
+    "    print(i+\"biswa\",\"biswaranjanmallick62@gmail.com\",\"6372229717\",\"meghadambaru\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "3cb9af68",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['name', 'email id', 'phone number', 'address']"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "ca7d649b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in l:\n",
+    "    if i == \"name\":\n",
+    "         break\n",
+    "    print(i)\n",
+    "else:\n",
+    "        print(\"check this statement\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1edfae69",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "160ebea3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name\n",
+      "email id\n",
+      "phone number\n",
+      "address\n",
+      "check this statement\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "    if i == \"chintu\":\n",
+    "         break\n",
+    "    print(i)\n",
+    "else:\n",
+    "        print(\"check this statement\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "7a63e80e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name\n",
+      "email id\n",
+      "phone number\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "    if i == \"address\":\n",
+    "         break\n",
+    "    print(i)\n",
+    "else:\n",
+    "        print(\"check this statement\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "065548af",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name\n",
+      "email id\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "    if i == \"phone number\":\n",
+    "         break\n",
+    "    print(i)\n",
+    "else:\n",
+    "        print(\"check this statement\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "f9316a65",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in l:\n",
+    "    if i == \"email id\":\n",
+    "         break\n",
+    "    print(i)\n",
+    "else:\n",
+    "        print(\"check this statement\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "f1c318b4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for i in l:\n",
+    "    if i == \"name\":\n",
+    "         break\n",
+    "    print(i)\n",
+    "else:\n",
+    "        print(\"check this statement\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "a348c808",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 2\n",
+    "while a<10 :\n",
+    "    print(a)\n",
+    "    a=a+1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6438a3d8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "208fcc6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0,\n",
+       " 1,\n",
+       " 2,\n",
+       " 3,\n",
+       " 4,\n",
+       " 5,\n",
+       " 6,\n",
+       " 7,\n",
+       " 8,\n",
+       " 9,\n",
+       " 10,\n",
+       " 11,\n",
+       " 12,\n",
+       " 13,\n",
+       " 14,\n",
+       " 15,\n",
+       " 16,\n",
+       " 17,\n",
+       " 18,\n",
+       " 19,\n",
+       " 20,\n",
+       " 21,\n",
+       " 22,\n",
+       " 23,\n",
+       " 24,\n",
+       " 25,\n",
+       " 26,\n",
+       " 27,\n",
+       " 28,\n",
+       " 29,\n",
+       " 30,\n",
+       " 31,\n",
+       " 32,\n",
+       " 33,\n",
+       " 34,\n",
+       " 35,\n",
+       " 36,\n",
+       " 37,\n",
+       " 38,\n",
+       " 39,\n",
+       " 40,\n",
+       " 41,\n",
+       " 42,\n",
+       " 43,\n",
+       " 44,\n",
+       " 45,\n",
+       " 46,\n",
+       " 47,\n",
+       " 48,\n",
+       " 49]"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list (range(0,50))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "9afbdf5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 2, 4]"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list (range(0,5,2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e9fdccb0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[]"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list (range(3,10,-10))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "5e7c9118",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[10, 9, 8, 7]"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(10,6,-1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "d8444978",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[10, 8, 6, 4, 2, 0, -2, -4]"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(10,-5,-2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "d9ecd947",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "8\n",
+      "6\n",
+      "4\n",
+      "2\n",
+      "0\n",
+      "-2\n",
+      "-4\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(10,-5,-2):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "3db1c32e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "*\n",
+      "\n",
+      "**\n",
+      "\n",
+      "***\n",
+      "\n",
+      "****\n",
+      "\n",
+      "*****\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=5\n",
+    "for i in range(0,n) :\n",
+    "    for i in range(0,i+1):\n",
+    "        print(\"*\",end =\"\")\n",
+    "    print(\"\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "6ac0ecb5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " subbu  biswa \n",
+      "\n",
+      " subbu  biswa  subbu  biswa \n",
+      "\n",
+      " subbu  biswa  subbu  biswa  subbu  biswa \n",
+      "\n",
+      " subbu  biswa  subbu  biswa  subbu  biswa  subbu  biswa \n",
+      "\n",
+      " subbu  biswa  subbu  biswa  subbu  biswa  subbu  biswa  subbu  biswa \n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=5\n",
+    "for i in range(0,n) :\n",
+    "    for i in range(0,i+1):\n",
+    "        print(\" subbu \",end = \" biswa \")\n",
+    "    print(\"\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "28667f2c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t= (1,34,4,5,5,42,44,42,445,6,4,45,)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "acab7a77",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "34\n",
+      "4\n",
+      "5\n",
+      "5\n",
+      "42\n",
+      "44\n",
+      "42\n",
+      "445\n",
+      "6\n",
+      "4\n",
+      "45\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in t :\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "902e2dce",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t)):\n",
+    "    print (i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "7f3de594",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0 1\n",
+      "1 34\n",
+      "2 4\n",
+      "3 5\n",
+      "4 5\n",
+      "5 42\n",
+      "6 44\n",
+      "7 42\n",
+      "8 445\n",
+      "9 6\n",
+      "10 4\n",
+      "11 45\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range (len(t)) :\n",
+    "    print(i,t[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "ff2f2d01",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"subhashree nayak\",\"biswaranjan mallick\",\"maguru\",\"chintu\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "d84ce239",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "range(0, 4)"
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "range(len(s))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "3f6f76c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0 subhashree nayak\n",
+      "1 biswaranjan mallick\n",
+      "2 maguru\n",
+      "3 chintu\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(s)):\n",
+    "    print(i,s[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "ff533707",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = \"SubhashreeNayak\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "00463be2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "S\n",
+      "u\n",
+      "b\n",
+      "h\n",
+      "a\n",
+      "s\n",
+      "h\n",
+      "r\n",
+      "e\n",
+      "e\n",
+      "N\n",
+      "a\n",
+      "y\n",
+      "a\n",
+      "k\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in a:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "1335dd46",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "t= (1,3,45,6,7,8,9,9,7,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "47881819",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(6, 7, 9, 9, 8, 7, 6, 45, 3, 1)"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t[::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "a65b11ce",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t)) :\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "10ddbaa0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(1, 3, 45, 6, 7, 8, 9, 9, 7, 6)"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "t"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "025686df",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "range(10, 0, -1)"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "range(len(t),0,-1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "34062ad4",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "list(range(len(t),0,-1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "98de09f0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "5\n",
+      "4\n",
+      "3\n",
+      "2\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t),0,-1):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "86cb52b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndexError",
+     "evalue": "tuple index out of range",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mIndexError\u001b[0m                                Traceback (most recent call last)",
+      "Input \u001b[1;32mIn [57]\u001b[0m, in \u001b[0;36m<cell line: 1>\u001b[1;34m()\u001b[0m\n\u001b[0;32m      1\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m i \u001b[38;5;129;01min\u001b[39;00m \u001b[38;5;28mrange\u001b[39m(\u001b[38;5;28mlen\u001b[39m(t),\u001b[38;5;241m0\u001b[39m,\u001b[38;5;241m-\u001b[39m\u001b[38;5;241m1\u001b[39m):\n\u001b[1;32m----> 2\u001b[0m     \u001b[38;5;28mprint\u001b[39m(i,\u001b[43mt\u001b[49m\u001b[43m[\u001b[49m\u001b[43mi\u001b[49m\u001b[43m]\u001b[49m)\n",
+      "\u001b[1;31mIndexError\u001b[0m: tuple index out of range"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t),0,-1):\n",
+    "    print(i,t[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "05c724cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "7\n",
+      "9\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "45\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t)-1,0,-1):\n",
+    "    print(t[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "8445d509",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "7\n",
+      "9\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "45\n",
+      "3\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t)-1,-1,-1):\n",
+    "    print(t[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "8d44f5ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "7\n",
+      "9\n",
+      "9\n",
+      "8\n",
+      "7\n",
+      "6\n",
+      "45\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(len(t)-1,1,-1):\n",
+    "    print(t[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "f88f25e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "1 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "2 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "3 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "4 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "5 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "6 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "7 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "8 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n",
+      "9 (6, 7, 9, 9, 8, 7, 6, 45, 3, 1)\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range (len(t)):\n",
+    "    print(i,t[::-1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "b37d6028",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = {\"a\":\"biswaranjan\",\"b\":\"subhashree\",\"c\":\"i love her\",\"d\":[1,4,3],\"e\":(1,4,3)}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "d3fe53cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a\n",
+      "b\n",
+      "c\n",
+      "d\n",
+      "e\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in d:\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "2cea6edb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a biswaranjan\n",
+      "b subhashree\n",
+      "c i love her\n",
+      "d [1, 4, 3]\n",
+      "e (1, 4, 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in d:\n",
+    "    print(i,d[i])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "84dd1b5f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'a': 'biswaranjan',\n",
+       " 'b': 'subhashree',\n",
+       " 'c': 'i love her',\n",
+       " 'd': [1, 4, 3],\n",
+       " 'e': (1, 4, 3)}"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "b65a34a2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = {\"a\":\"biswaranjan\",\"b\":\"subhashree\",\"c\":\"i love her\",\"d\":[1,4,3],\"e\":(1,4,3)}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "9b159793",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict_items([('a', 'biswaranjan'), ('b', 'subhashree'), ('c', 'i love her'), ('d', [1, 4, 3]), ('e', (1, 4, 3))])"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d.items()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "ed7d7b58",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('a', 'biswaranjan')\n",
+      "('b', 'subhashree')\n",
+      "('c', 'i love her')\n",
+      "('d', [1, 4, 3])\n",
+      "('e', (1, 4, 3))\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in d.items():\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "752eb2a9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
